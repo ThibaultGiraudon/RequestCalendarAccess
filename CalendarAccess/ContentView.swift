@@ -20,7 +20,7 @@ struct ContentView: View {
     @State private var alertTitle: String = ""
     @State private var alertMessage: String = ""
     let events: [Event] = [
-        Event(title: "Mike birthday", date: Date() + 86400 * 9, description: ""),
+        Event(title: "Mike's birthday", date: Date() + 86400 * 9, description: ""),
         Event(title: "Date", date: Date() + 86400 * 5, description: "Bring some flowers")
     ]
     let formatter: DateFormatter = {
